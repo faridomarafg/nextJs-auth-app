@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.auth_input{
+  @apply border-b border-b-slate-500 px-2 my-3 outline-none
+}
+
+.auth_button{
+   @apply rounded-lg bg-blue-600 text-white px-4  w-fit
+}
+
